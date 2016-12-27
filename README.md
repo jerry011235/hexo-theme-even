@@ -8,7 +8,7 @@
 ## 安装使用 Installation
 ```
 $ npm install install hexo-renderer-scss --save
-$ git clone https://github.com/ahonn/hexo-theme-even theme/even
+$ git clone https://github.com/ahonn/hexo-theme-even themes/even
 ```
 
 修改配置文件中的 `theme` 字段为 `even`: 
@@ -18,6 +18,12 @@ $ git clone https://github.com/ahonn/hexo-theme-even theme/even
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
 theme: even
+```
+
+## 更新
+```
+cd themes/even
+git pull
 ```
 
 ## 文档 Document
